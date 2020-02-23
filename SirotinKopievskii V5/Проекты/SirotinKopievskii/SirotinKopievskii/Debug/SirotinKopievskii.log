@@ -1,0 +1,57 @@
+﻿  AchivmentsForm.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+  AllTests.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+  Cabinet.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+  EntryForm.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\teor.h(201): warning C4566: символ, представленный универсальным именем символа "\u00BA", невозможно представить в текущей кодовой странице (1251)
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\login.h(3): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Login.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\login.h(3): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\teor.h(201): warning C4566: символ, представленный универсальным именем символа "\u00BA", невозможно представить в текущей кодовой странице (1251)
+  MainMenuForm.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\teor.h(201): warning C4566: символ, представленный универсальным именем символа "\u00BA", невозможно представить в текущей кодовой странице (1251)
+  ProgressForm.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+  Settings.cpp
+  Teor2.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+  Teor.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\teor.h(201): warning C4566: символ, представленный универсальным именем символа "\u00BA", невозможно представить в текущей кодовой странице (1251)
+  Start.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\teor.h(201): warning C4566: символ, представленный универсальным именем символа "\u00BA", невозможно представить в текущей кодовой странице (1251)
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\login.h(3): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  TestSelect.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+  TestsSource.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testssource.cpp(8): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testssource.cpp(127): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testssource.cpp(542): warning C4805: !=: небезопасное смешение типа "bool" и типа "int" в операции
+  TitulForm.cpp
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(25): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::PhraseTranslate_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\testsheaders.h(30): warning C4091: static : пропускается слева от "SpaceForTest::AllTest_Module::RadioButton_Module", когда ни одна переменная не объявлена
+c:\users\nik20\desktop\programm\sirotinkopievskii\sirotinkopievskii\teor.h(201): warning C4566: символ, представленный универсальным именем символа "\u00BA", невозможно представить в текущей кодовой странице (1251)
+  VAR.cpp
+  Создание кода...
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  AchivmentsForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  SirotinKopievskii.vcxproj -> C:\Users\Nik20\Desktop\Programm\SirotinKopievskii\Debug\SirotinKopievskii.exe

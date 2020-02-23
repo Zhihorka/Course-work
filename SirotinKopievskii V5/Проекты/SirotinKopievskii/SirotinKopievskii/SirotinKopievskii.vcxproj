@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{889A59F3-537F-4F9D-A623-DFB91AAC682E}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>SirotinKopievskii</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="BrokenPiano">
+      <HintPath>..\..\..\SirotinKopievskii\SirotinKopievskii V4\BrokenPiano\Debug\BrokenPiano.dll</HintPath>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AchivmentsForm.cpp" />
+    <ClCompile Include="AllTests.cpp" />
+    <ClCompile Include="Cabinet.cpp" />
+    <ClCompile Include="EntryForm.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="MainMenuForm.cpp" />
+    <ClCompile Include="ProgressForm.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="Teor2.cpp" />
+    <ClCompile Include="Teor.cpp" />
+    <ClCompile Include="Start.cpp" />
+    <ClCompile Include="TestSelect.cpp" />
+    <ClCompile Include="TestsSource.cpp" />
+    <ClCompile Include="TitulForm.cpp" />
+    <ClCompile Include="VAR.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AchivmentsForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AllTests.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cabinet.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EntryForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MainMenuForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProgressForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Teor2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Teor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TestSelect.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TestsHeaders.h" />
+    <ClInclude Include="TitulForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VAR.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AchivmentsForm.resx">
+      <DependentUpon>AchivmentsForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllTests.resx">
+      <DependentUpon>AllTests.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cabinet.resx">
+      <DependentUpon>Cabinet.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntryForm.resx">
+      <DependentUpon>EntryForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressForm.resx">
+      <DependentUpon>ProgressForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teor2.resx">
+      <DependentUpon>Teor2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teor.resx">
+      <DependentUpon>Teor.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestSelect.resx">
+      <DependentUpon>TestSelect.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitulForm.resx">
+      <DependentUpon>TitulForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADOX.2.8.dll">
+      <Guid>00000600-0000-0010-8000-00aa006d2ea4</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>false</Isolated>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Debug\UI\AddUser.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Arrow.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Cabinet.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\CabinetPic.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Calendar.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Create.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Cross.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Done.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\DoneIcon.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\DoneIndex.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Exit.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Info.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Key.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Obuchenie.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Pereskaz.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Settings.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Star.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Testing.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Theory.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\User.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\When.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\Debug\UI\Writing.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

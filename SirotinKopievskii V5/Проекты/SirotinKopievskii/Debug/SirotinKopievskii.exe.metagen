@@ -1,0 +1,113 @@
+  SirotinKopievskii.AchivmentsForm.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.AllTests.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.Cabinet.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.EntryForm.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.Login.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.MainMenuForm.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.ProgressForm.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.Settings.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.Teor2.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.Teor.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.Start.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.TestSelect.resources - Embedded, ContainedInManifestFile, 
+  SirotinKopievskii.TitulForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly SirotinKopievskii, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly BrokenPiano, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Interop.ADOX.2.8, Version=2.8.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=None, flags=None
+Class SpaceForTest.AllTest_Module: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SpaceForTest.AllTest_Module+PhraseTranslate_Module: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Make_Buttons(String, String, String, String, String, String, Button, Button, Button, Button, Button, Button): PrivateScope, Public, Static, HideBySig
+    AnswerCheck(String, Button, Button, Button, Boolean*, Int32): PrivateScope, Public, Static, HideBySig
+    Filling(String, Button, Button, Button): PrivateScope, Public, Static, HideBySig
+    RemoveEl(Button): PrivateScope, Public, Static, HideBySig
+    CheckTrackBar(TrackBar, Button, Boolean*): PrivateScope, Public, Static, HideBySig
+    FullCheck(String, Button, Button, Button): PrivateScope, Public, Static, HideBySig
+Class SpaceForTest.AllTest_Module+RadioButton_Module: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    MakeButtons(String, String, String, String, RadioButton, RadioButton, RadioButton, RadioButton): PrivateScope, Public, Static, HideBySig
+Class Obj_Space.AllTest: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    PTran_Qst(basic_string<char\,std::char_traits<char>\,std::allocator<char> >**): PrivateScope, Public, Static, HideBySig
+    vvodfun(basic_string<char\,std::char_traits<char>\,std::allocator<char> >**): PrivateScope, Public, Static, HideBySig
+    RBLoad(basic_string<char\,std::char_traits<char>\,std::allocator<char> >**): PrivateScope, Public, Static, HideBySig
+    all_load(Boolean*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Panel, Panel, Panel, Panel, DataGridView, Boolean*, Button, Int32*, Int32*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32): PrivateScope, Public, Static, HideBySig
+    trackBar1_changed(Label, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*, TrackBar, Boolean*, Button, Button, Button, Button, Button, Button, Button, Button, Button, Button, Button): PrivateScope, Public, Static, HideBySig
+    trackBar2_changed(Label, Label, TextBox, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*, Int32, Boolean*, Button, Button): PrivateScope, Public, Static, HideBySig
+    trackBar3_change(Label, Label, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*, Int32, Boolean*, RadioButton, RadioButton, RadioButton, RadioButton, Button, Button, GroupBox): PrivateScope, Public, Static, HideBySig
+    button11_Press(basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*, TrackBar, Boolean*, Button, Button, Button, Button, Button): PrivateScope, Public, Static, HideBySig
+    Answers_add(basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*): PrivateScope, Public, Static, HideBySig
+    button12_Press(Boolean*, Int32*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Panel, Panel, Panel, Panel, DataGridView, Int32*, Boolean*, Button, Button, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*): PrivateScope, Public, Static, HideBySig
+    button13_Press(Label, TextBox, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*, Int32, Boolean*, Button, Button): PrivateScope, Public, Static, HideBySig
+    button14_Press(Label, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32*, Int32, Boolean*, RadioButton, RadioButton, RadioButton, RadioButton, Button, Button, GroupBox): PrivateScope, Public, Static, HideBySig
+    panel1_Visible(Label, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Button, Button, Button, Button, Button, Button, Button, Button, Button): PrivateScope, Public, Static, HideBySig
+    panel2_Visible(Label, Label, TextBox, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32): PrivateScope, Public, Static, HideBySig
+    panel3_Visible(Label, Label, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32, RadioButton, RadioButton, RadioButton, RadioButton): PrivateScope, Public, Static, HideBySig
+    RB_Unsel(RadioButton, RadioButton, RadioButton, RadioButton): PrivateScope, Public, Static, HideBySig
+    GroupBoxSelected(RadioButton, RadioButton, RadioButton, RadioButton): PrivateScope, Public, Static, HideBySig
+    Ch(Boolean*): PrivateScope, Public, Static, HideBySig
+    P_Visible(Panel, Panel, Panel): PrivateScope, Public, Static, HideBySig
+    Panel_Change(Panel, Panel, Panel, Panel, Int32*): PrivateScope, Public, Static, HideBySig
+    test_check(Boolean*, Int32*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Panel, Panel, Panel, Panel, DataGridView, basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32): PrivateScope, Public, Static, HideBySig
+    Output_arr(basic_string<char\,std::char_traits<char>\,std::allocator<char> >**, Int32, Int32, DataGridView): PrivateScope, Public, Static, HideBySig
+Class SirotinKopievskii.AchivmentsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.AllTests: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.Cabinet: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.Teor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.TestSelect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.Teor2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.ProgressForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.Settings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.MainMenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.TitulForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.Start: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SirotinKopievskii.EntryForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
